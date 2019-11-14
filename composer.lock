@@ -4,8 +4,61 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "af33f2982a65f0622d7612e94459e361",
+    "content-hash": "46eb9e3ea51e8fb4c144fe6cd4eaa4fc",
     "packages": [
+        {
+            "name": "quantimodo/quantimodo-sdk-php",
+            "version": "5.10.111411",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/QuantiModo/quantimodo-sdk-php.git",
+                "reference": "48c523ce352bde2caa3d6ae24884162a5d17004b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/QuantiModo/quantimodo-sdk-php/zipball/48c523ce352bde2caa3d6ae24884162a5d17004b",
+                "reference": "48c523ce352bde2caa3d6ae24884162a5d17004b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~1.12",
+                "phpunit/phpunit": "~4.8",
+                "satooshi/php-coveralls": "~1.0",
+                "squizlabs/php_codesniffer": "~2.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "QuantiModo\\Client\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Swagger and contributors",
+                    "homepage": "https://github.com/swagger-api/swagger-codegen"
+                }
+            ],
+            "homepage": "http://swagger.io",
+            "keywords": [
+                "api",
+                "php",
+                "sdk",
+                "swagger"
+            ],
+            "time": "2019-11-14T17:04:29+00:00"
+        }
+    ],
+    "packages-dev": [
         {
             "name": "doctrine/instantiator",
             "version": "1.1.0",
@@ -711,58 +764,8 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2017-06-30T09:13:00+00:00"
-        },
-        {
-            "name": "quantimodo/quantimodo-sdk-php",
-            "version": "5.9.90517",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/QuantiModo/quantimodo-sdk-php.git",
-                "reference": "812d43d8c6d260730cdf575e034f0b3aed6d6a8a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/QuantiModo/quantimodo-sdk-php/zipball/812d43d8c6d260730cdf575e034f0b3aed6d6a8a",
-                "reference": "812d43d8c6d260730cdf575e034f0b3aed6d6a8a",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "ext-json": "*",
-                "ext-mbstring": "*",
-                "php": ">=5.4"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "~1.12",
-                "phpunit/phpunit": "~4.8",
-                "satooshi/php-coveralls": "~1.0",
-                "squizlabs/php_codesniffer": "~2.6"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "QuantiModo\\Client\\": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Swagger and contributors",
-                    "homepage": "https://github.com/swagger-api/swagger-codegen"
-                }
-            ],
-            "homepage": "http://swagger.io",
-            "keywords": [
-                "api",
-                "php",
-                "sdk",
-                "swagger"
-            ],
-            "time": "2018-09-05T22:49:33+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -1445,7 +1448,6 @@
             "time": "2018-01-29T19:49:41+00:00"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
